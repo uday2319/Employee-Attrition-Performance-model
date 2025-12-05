@@ -28,3 +28,4 @@ if st.button("Predict"):
     pred = pipeline.predict(input_df)[0]
     st.write("Attrition:", "Yes" if pred == 1 else "No")
 
+
